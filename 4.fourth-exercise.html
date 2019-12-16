@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 4</title>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="style4.css">
+    </head>
+
+    <body>
+        <table border="1" cellpadding="3" cellspacing="3">
+            <tbody>
+                <tr bgcolor="#ffffaa">
+                    <th colspan="2"><h1 style="color: red;">User Form</h1></th>
+                </tr bg>
+                <tr bgcolor="#00ccff">
+                    <td>Enter Name</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr bgcolor="#00ccff">
+                    <td>Enter Password</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr bgcolor="#00ccff">
+                    <td>Enter Address</td>
+                    <td><form><textarea rows="3" cols="21"></textarea></form></td>
+                </tr>
+                <tr bgcolor="#00ccff">
+                    <td>Select Game</td>
+                    <td>
+                        <form>
+                            <input type="checkbox" value="sport1" name="football">Football<br>
+                            <input type="checkbox" value="sport2" name="hockey"> Hockey<br>
+                            <input type="checkbox" value="sport3" name="badminton"> Badminton<br>
+                            <input type="checkbox" value="sport4" name="cricket"> Cricket<br>
+                            <input type="checkbox" value="sport5" name="volleyball"> Volleyball
+                        </form>
+                    </td>
+                </tr>
+                <tr bgcolor="#00ccff">
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="female">Female</td>
+                </tr>
+                <tr bgcolor="#00ccff">
+                    <td>Select ur age</td>
+                    <td>
+                        <select>
+                            <option value="select">Select</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr bgcolor="#00ccff">
+                    <td colspan="2">
+                        <form action="/action_page.php">
+                            <input type="file" name="pic" accept="image/*">
+                          </form>
+                    </td>
+                </tr>
+                <tr bgcolor="#00ccff">
+                    <td colspan="2">
+                        <input name="click me" type="button" value="Click Me"> <input name="reset" type="reset" value="Reset"> <input name="submit" type="submit" value="Submit">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
